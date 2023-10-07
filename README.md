@@ -46,7 +46,4 @@
       </dependency>
     ```
     The same needs to be updated in the Eclipse build path.  Finally, right-click and run the project as Junit.
-
-
-1. Examine Defects4j
-  
+1. aGenerating Test Cases:
