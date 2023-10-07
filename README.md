@@ -8,8 +8,8 @@
 
   \<build\>
   
-  \<plugins\>
-  \<plugin\>
+      \<plugins\>
+      \<plugin\>
   
   \<groupId\>org.evosuite.plugins\<\/groupId\>
   
