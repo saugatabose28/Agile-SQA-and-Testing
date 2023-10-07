@@ -1,6 +1,6 @@
 # Agile-SQA-and-Testing
 1. Generating Test Cases: 
-A. If all required tools are Eclipse IDE, Maven, and EvoSuite are running well,
+>A. If all required tools are Eclipse IDE, Maven, and EvoSuite are running well,
   -> Download the source code for the project
   -> Open Eclipse IDE and import the project selecting the option “import existing Project”
   -> Open the terminal on the main directory of the application.
