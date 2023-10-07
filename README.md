@@ -27,3 +27,30 @@
       </pluginRepositories>
     ```
     Add it at the end, before the closing \<\/project\> tag.
+  
+- Generate Test cases
+    - mvn evosuite:generate
+    - mvn -Dcores=4 evosuite:generate -D memoryInMB=3500 -D timeInMinutesPerClass=1
+- Export Test Cases
+    - mvn evosuite:export
+- Execute the generated test cases
+
+    Add a new item to the <dependencies> tag in pom.xml:
+  
+    ```
+      <dependency>
+      <groupId>org.evosuite</groupId>
+      <artifactId>evosuite-standalone-runtime</artifactId>
+      <version>1.0.6</version>
+      <scope>test</scope>
+      </dependency>
+    ```
+    The same needs to be updated in the Eclipse build path.  Finally, right-click and run the project as Junit.
+  
+1. Examine Defects4j
+
+    Defects4J is a collection of reproducible bugs and a supporting infrastructure with the goal of advancing software engineering research.
+
+    - compile
+    - test
+    - fix and recompile the code.
