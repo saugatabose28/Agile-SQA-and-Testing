@@ -17,14 +17,15 @@
       </build> 
   ```
 - Resolve dependencies
+  ```
   <pluginRepositories>
   <pluginRepository>
-  <id>EvoSuite</id>
-  <name>EvoSuite Repository</name>
-  <url>http://www.evosuite.org/m2</url>
+      <id>EvoSuite</id>
+      <name>EvoSuite Repository</name>
+      <url>http://www.evosuite.org/m2</url>
   </pluginRepository>
   </pluginRepositories>
-
+```
 Add it at the end, before the closing </project> tag.
 - Generate Test cases
     - mvn evosuite:generate
