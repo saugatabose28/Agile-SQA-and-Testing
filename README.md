@@ -5,7 +5,8 @@
     - Open Eclipse IDE and import the project selecting the option “import existing Project”
     - Open the terminal on the main directory of the application.
 - Add Evosuite Dependency in POM.XML File
- <!-- <build>
+
+  <build>
   <plugins>
   <plugin>
   <groupId>org.evosuite.plugins</groupId>
@@ -13,7 +14,8 @@
   <version>1.0.6</version>
   </plugin>
   </plugins>
-  </build> -->
+  </build> 
+  
 - Resolve dependencies
   <pluginRepositories>
   <pluginRepository>
