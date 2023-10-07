@@ -5,20 +5,17 @@
     - Open Eclipse IDE and import the project selecting the option “import existing Project”
     - Open the terminal on the main directory of the application.
 - Add Evosuite Dependency in POM.XML File
-
-  \<build\>
-  
-      \<plugins\>
-      \<plugin\>
-  
-  \<groupId\>org.evosuite.plugins\<\/groupId\>
-  
-  <artifactId>evosuite-maven-plugin</artifactId>
-  <version>1.0.6</version>
-  </plugin>
-  </plugins>
-  </build> 
-  
+    ```
+      <build>  
+      <plugins>
+      <plugin>      
+          <groupId>org.evosuite.plugins</groupId>      
+          <artifactId>evosuite-maven-plugin</artifactId>
+          <version>1.0.6</version>
+      </plugin>
+      </plugins>
+      </build> 
+  ```
 - Resolve dependencies
   <pluginRepositories>
   <pluginRepository>
