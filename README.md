@@ -7,9 +7,9 @@
 - Add Evosuite Dependency in POM.XML File
 
   \<build\>
-  <plugins>
-  <plugin>
-  <groupId>org.evosuite.plugins</groupId>
+  \<plugins\>
+  \<plugin\>
+  \<groupId\>org.evosuite.plugins\<\/groupId\>
   <artifactId>evosuite-maven-plugin</artifactId>
   <version>1.0.6</version>
   </plugin>
