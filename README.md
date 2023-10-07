@@ -26,3 +26,4 @@
       </pluginRepository>
       </pluginRepositories>
     ```
+    Add it at the end, before the closing \<\/project\> tag.
