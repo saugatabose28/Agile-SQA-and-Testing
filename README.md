@@ -1,5 +1,5 @@
 # Agile-SQA-and-Testing
-1. Generating Test Cases: 
+1\. Generating Test Cases: 
 - If all required tools are Eclipse IDE, Maven, and EvoSuite are running well,
     - Download the source code for the project
     - Open Eclipse IDE and import the project selecting the option “import existing Project”
@@ -47,7 +47,7 @@
     ```
     The same needs to be updated in the Eclipse build path.  Finally, right-click and run the project as Junit.
   
-1. Examine Defects4j
+2\. Examine Defects4j
 
    Defects4J is a collection of reproducible bugs and a supporting infrastructure with the goal of advancing software engineering research.
 
