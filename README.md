@@ -6,7 +6,7 @@
     - Open the terminal on the main directory of the application.
 - Add Evosuite Dependency in POM.XML File
 
-  <build>
+  \<build\>
   <plugins>
   <plugin>
   <groupId>org.evosuite.plugins</groupId>
